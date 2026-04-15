@@ -700,3 +700,734 @@ html {
 .stats-grid {
     margin-bottom: 2rem;
 }
+
+
+/* Additional styles for enhanced pages */
+
+/* Contact Page Styles */
+.contact-description {
+    margin-bottom: 2rem;
+    color: var(--dark-gray);
+}
+
+.info-item {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+    background: var(--light-gray);
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.info-item:hover {
+    transform: translateX(5px);
+}
+
+.info-item span {
+    font-size: 1.5rem;
+}
+
+.info-item strong {
+    display: block;
+    margin-bottom: 0.25rem;
+    color: var(--primary);
+}
+
+.info-item p {
+    margin: 0;
+    color: var(--dark-gray);
+}
+
+.social-links h4 {
+    margin-bottom: 1rem;
+}
+
+.social-icons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.social-icon {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background: var(--light-gray);
+    border-radius: 5px;
+    text-decoration: none;
+    color: var(--primary);
+    transition: all 0.3s;
+}
+
+.social-icon:hover {
+    background: var(--secondary);
+    color: var(--white);
+    transform: translateY(-2px);
+}
+
+/* Form Styles */
+.form-group {
+    margin-bottom: 1rem;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+    color: var(--primary);
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-family: 'Open Sans', sans-serif;
+    transition: border-color 0.3s;
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+    outline: none;
+    border-color: var(--secondary);
+}
+
+.checkbox-label {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    cursor: pointer;
+}
+
+.checkbox-label input {
+    width: auto;
+}
+
+.form-message {
+    margin-top: 1rem;
+    padding: 0.75rem;
+    border-radius: 5px;
+}
+
+.success-message {
+    background: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+}
+
+.error-message {
+    background: #f8d7da;
+    color: #721c24;
+    border: 1px solid #f5c6cb;
+}
+
+/* Map Section */
+.map-section {
+    padding: 3rem 0;
+    background: var(--light-gray);
+}
+
+.map-section h3 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.map-placeholder {
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+/* Donation Page Styles */
+.donation-description {
+    margin-bottom: 2rem;
+    color: var(--dark-gray);
+}
+
+.donation-benefits {
+    list-style: none;
+    margin: 2rem 0;
+}
+
+.donation-benefits li {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+    background: var(--light-gray);
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.donation-benefits li:hover {
+    transform: translateX(5px);
+}
+
+.benefit-icon {
+    font-size: 2rem;
+}
+
+.benefit-amount {
+    display: inline-block;
+    margin-top: 0.5rem;
+    padding: 0.25rem 0.75rem;
+    background: var(--secondary);
+    color: var(--white);
+    border-radius: 20px;
+    font-size: 0.875rem;
+    font-weight: bold;
+}
+
+.amount-buttons {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+}
+
+.amount-btn {
+    padding: 0.75rem 1.5rem;
+    background: var(--light-gray);
+    border: 2px solid transparent;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s;
+    font-weight: 600;
+}
+
+.amount-btn:hover {
+    background: var(--secondary);
+    color: var(--white);
+}
+
+.amount-btn.active {
+    background: var(--secondary);
+    color: var(--white);
+    border-color: var(--primary);
+}
+
+.btn-block {
+    width: 100%;
+}
+
+.secure-badge {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    margin-top: 1.5rem;
+    padding: 1rem;
+    background: var(--light-gray);
+    border-radius: 5px;
+    font-size: 0.875rem;
+}
+
+.other-ways {
+    padding: 4rem 0;
+    background: var(--light-gray);
+}
+
+.ways-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.way-card {
+    text-align: center;
+    padding: 2rem;
+    background: var(--white);
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.way-card:hover {
+    transform: translateY(-5px);
+}
+
+.way-icon {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+/* Impact Page Styles */
+.impact-description {
+    font-size: 0.875rem;
+    color: var(--dark-gray);
+    margin-top: 0.5rem;
+    display: block;
+}
+
+.story-image {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+
+.story-location {
+    color: var(--secondary);
+    font-size: 0.875rem;
+    margin: 0.5rem 0;
+}
+
+.story-text {
+    margin: 1rem 0;
+    line-height: 1.6;
+}
+
+.story-quote {
+    font-style: italic;
+    padding: 0.75rem;
+    background: var(--light-gray);
+    border-radius: 5px;
+    color: var(--primary);
+    margin-top: 1rem;
+}
+
+/* Timeline Styles */
+.timeline {
+    padding: 4rem 0;
+    background: var(--white);
+}
+
+.timeline-grid {
+    position: relative;
+    max-width: 800px;
+    margin: 2rem auto;
+}
+
+.timeline-grid::before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 2px;
+    height: 100%;
+    background: var(--secondary);
+}
+
+.timeline-item {
+    position: relative;
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.timeline-item:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+.timeline-year {
+    width: 100px;
+    padding: 0.5rem;
+    background: var(--secondary);
+    color: var(--white);
+    text-align: center;
+    border-radius: 5px;
+    font-weight: bold;
+    position: relative;
+    z-index: 1;
+}
+
+.timeline-content {
+    width: calc(50% - 60px);
+    padding: 1rem;
+    background: var(--light-gray);
+    border-radius: 10px;
+    margin: 0 20px;
+}
+
+.timeline-content h3 {
+    margin-bottom: 0.5rem;
+    color: var(--primary);
+}
+
+@media (max-width: 768px) {
+    .timeline-grid::before {
+        left: 30px;
+    }
+    
+    .timeline-item,
+    .timeline-item:nth-child(even) {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-left: 30px;
+    }
+    
+    .timeline-year {
+        margin-bottom: 1rem;
+    }
+    
+    .timeline-content {
+        width: 100%;
+        margin-left: 0;
+    }
+}
+
+/* Newsletter Form */
+.btn-small {
+    padding: 8px 15px;
+    font-size: 0.875rem;
+    margin-top: 0.5rem;
+}
+/* Programs Page Additional Styles */
+
+/* Featured Program Section */
+.featured-program {
+    padding: 4rem 0;
+    background: linear-gradient(135deg, var(--primary), var(--secondary));
+    color: var(--white);
+}
+
+.featured-badge {
+    display: inline-block;
+    background: var(--accent);
+    padding: 0.5rem 1rem;
+    border-radius: 25px;
+    font-size: 0.875rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+
+.featured-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+    align-items: center;
+}
+
+.featured-info h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.featured-info p {
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+    opacity: 0.95;
+}
+
+.featured-stats {
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+.featured-stat {
+    text-align: center;
+}
+
+.featured-stat .stat-number {
+    display: block;
+    font-size: 2rem;
+    font-weight: bold;
+    color: var(--white);
+}
+
+.featured-stat .stat-label {
+    font-size: 0.875rem;
+    opacity: 0.9;
+}
+
+.featured-image {
+    background: rgba(255,255,255,0.1);
+    border-radius: 20px;
+    padding: 3rem;
+    text-align: center;
+}
+
+.image-placeholder {
+    font-size: 8rem;
+}
+
+/* Program Cards Enhancement */
+.program-card {
+    position: relative;
+    background: var(--white);
+    padding: 2rem;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+}
+
+.program-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+}
+
+.program-level {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    padding: 0.25rem 0.75rem;
+    border-radius: 20px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    background: var(--light-gray);
+    color: var(--primary);
+}
+
+.program-level.beginner {
+    background: #d4edda;
+    color: #155724;
+}
+
+.program-level.intermediate {
+    background: #fff3cd;
+    color: #856404;
+}
+
+.program-level.advanced {
+    background: #f8d7da;
+    color: #721c24;
+}
+
+.program-image {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+
+.program-card h3 {
+    margin: 1rem 0;
+    color: var(--primary);
+}
+
+.program-features {
+    list-style: none;
+    margin: 1.5rem 0;
+    text-align: left;
+}
+
+.program-features li {
+    margin: 0.5rem 0;
+    color: var(--dark-gray);
+    font-size: 0.9rem;
+}
+
+.program-duration {
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 0;
+    padding: 0.75rem;
+    background: var(--light-gray);
+    border-radius: 8px;
+    font-size: 0.875rem;
+}
+
+/* Program Benefits Section */
+.program-benefits {
+    padding: 4rem 0;
+    background: var(--light-gray);
+}
+
+.benefits-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.benefit-item {
+    text-align: center;
+    padding: 2rem;
+    background: var(--white);
+    border-radius: 15px;
+    transition: transform 0.3s;
+}
+
+.benefit-item:hover {
+    transform: translateY(-5px);
+}
+
+.benefit-icon {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+/* How It Works Section */
+.how-it-works {
+    padding: 4rem 0;
+    background: var(--white);
+}
+
+.steps-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2rem;
+    margin: 3rem 0;
+}
+
+.step {
+    text-align: center;
+}
+
+.step-number {
+    width: 50px;
+    height: 50px;
+    background: var(--secondary);
+    color: var(--white);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0 auto 1rem;
+}
+
+.cta-center {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+/* Modal Styles */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 2000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.7);
+    animation: fadeIn 0.3s;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.modal-content {
+    background-color: var(--white);
+    margin: 5% auto;
+    padding: 2rem;
+    width: 90%;
+    max-width: 700px;
+    border-radius: 15px;
+    position: relative;
+    animation: slideDown 0.3s;
+    max-height: 80vh;
+    overflow-y: auto;
+}
+
+@keyframes slideDown {
+    from {
+        transform: translateY(-50px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.close-modal {
+    position: absolute;
+    right: 1.5rem;
+    top: 1rem;
+    font-size: 2rem;
+    font-weight: bold;
+    cursor: pointer;
+    color: var(--dark-gray);
+    transition: color 0.3s;
+}
+
+.close-modal:hover {
+    color: var(--accent);
+}
+
+.modal-description {
+    font-size: 1.1rem;
+    color: var(--secondary);
+    margin: 1rem 0;
+}
+
+.modal-details {
+    background: var(--light-gray);
+    padding: 1rem;
+    border-radius: 10px;
+    margin: 1.5rem 0;
+}
+
+.detail-item {
+    margin: 0.5rem 0;
+}
+
+.modal-curriculum {
+    list-style: none;
+    margin: 1rem 0;
+}
+
+.modal-curriculum li {
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    background: var(--light-gray);
+    border-radius: 5px;
+}
+
+.modal-actions {
+    display: flex;
+    gap: 1rem;
+    margin-top: 2rem;
+    justify-content: center;
+}
+
+/* Responsive Design for Programs Page */
+@media (max-width: 768px) {
+    .featured-content {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+    
+    .featured-stats {
+        justify-content: center;
+    }
+    
+    .programs-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .steps-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .modal-content {
+        width: 95%;
+        margin: 10% auto;
+        padding: 1rem;
+    }
+    
+    .modal-actions {
+        flex-direction: column;
+    }
+}
+
+/* Animations */
+.program-card {
+    animation: fadeInUp 0.6s ease-out;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Stagger animation for cards */
+.program-card:nth-child(1) { animation-delay: 0.1s; }
+.program-card:nth-child(2) { animation-delay: 0.2s; }
+.program-card:nth-child(3) { animation-delay: 0.3s; }
+.program-card:nth-child(4) { animation-delay: 0.4s; }
+.program-card:nth-child(5) { animation-delay: 0.5s; }
+.program-card:nth-child(6) { animation-delay: 0.6s; }
